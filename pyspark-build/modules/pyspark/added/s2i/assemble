@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Proving that secret can be read during assemble stage"
+ls -l
+cat testsecret
+
+/usr/libexec/s2i/assemble.original
